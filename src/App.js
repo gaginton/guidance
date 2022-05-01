@@ -16,7 +16,9 @@ function App() {
   return (
     <div className="App">
 
-      <h1>Timeline</h1>
+      <h1 className="title">Guy Ginton:
+        <br />Programming Timeline
+      </h1>
       <VerticalTimeline>
         {
           timelineElements.map(element => {
