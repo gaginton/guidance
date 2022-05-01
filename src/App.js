@@ -17,7 +17,7 @@ function App() {
     <div className="App">
 
       <h1 className="title">Guy Ginton:
-        <br />Programming Timeline
+        <br />Digital Dreamer
       </h1>
       <VerticalTimeline animate="true" lineColor="black">
         {
@@ -52,7 +52,8 @@ function App() {
                       `button ${isWorkIcon ? "workButton" : "schoolButton"}`
                     }
                     href={element.link}
-                    target="_blank" 
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     {element.buttonText}
                   </a>

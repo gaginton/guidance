@@ -1,6 +1,3 @@
-// buttonText can be null if you do not want a button
-// icon will be based on svg
-
 let timelineElements = [
     {
         id: 1,
@@ -10,7 +7,7 @@ let timelineElements = [
             "Studied neuroscience and economics, averaging a 3.5 GPA among 220+ credits. Conducted a study published in the journal Addiction. Held leadership role in six extracurricular groups.",
         date: "Aug 2010 - May 2014",
         icon: "school",
-        buttonText: "View a published study",
+        buttonText: "View study",
         link: "https://pubmed.ncbi.nlm.nih.gov/24667154/"
     },
     {
@@ -21,7 +18,7 @@ let timelineElements = [
             "Managed the artist side of a streaming service written in JS. Tasks included artist outreach, managing social media accounts, overseeing development, uploading content to MySQL, creating marketing plans and press kits.",
         date: "May 2015 - May 2016",
         icon: "work",
-        buttonText: "View deprecated Facebook.",
+        buttonText: "View FB Page",
         link: "https://www.facebook.com/SetmineApp/"
     },
     {
@@ -52,7 +49,6 @@ let timelineElements = [
         location: "Tel Aviv, Israel",
         description:
             "Wrote using Vue.js and Vuetify paired with Apollo, GraphQL and Node.js. Worked with push notifications through Firebase and FE tested with Cypress. Jeeng’s software analyzes clients’ data and matches relevant content to users.",
-        // buttonText: "",
         date: "Jan 2019 - Apr 2019",
         icon: "work",
     },
