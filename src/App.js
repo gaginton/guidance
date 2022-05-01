@@ -19,7 +19,7 @@ function App() {
       <h1 className="title">Guy Ginton:
         <br />Programming Timeline
       </h1>
-      <VerticalTimeline>
+      <VerticalTimeline animate="true" lineColor="black">
         {
           timelineElements.map(element => {
             let isWorkIcon = element.icon === "work";
@@ -35,6 +35,7 @@ function App() {
                 dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                 icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+              // iconOnClick={window.open(element.link, '_blank')}
               >
                 <h3 className='vertical-timeline-element-title'>
                   {element.title}
@@ -47,9 +48,12 @@ function App() {
                 </p>
                 {showButton && (
                   <a
-                    className={`button ${isWorkIcon ? "workbutton" : "schoolButton"
-                      }`}
-                    href="/">
+                    className={
+                      `button ${isWorkIcon ? "workbutton" : "schoolButton"}`
+                    }
+                    href={element.link}
+                    target="_blank" 
+                  >
                     {element.buttonText}
                   </a>
                 )}

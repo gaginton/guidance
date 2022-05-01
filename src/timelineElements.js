@@ -7,10 +7,11 @@ let timelineElements = [
         title: "University of Florida",
         location: "Gainesville, Florida",
         description:
-            "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-        buttonText: "View Frontend Projects",
-        date: "August 2010 - present",
+            "Studied neuroscience and economics, averaging a 3.5 GPA among 220+ credits. Conducted a study published in the journal Addiction. Held leadership role in six extracurricular groups.",
+        buttonText: "View my published study",
+        date: "August 2010 - May 2014",
         icon: "work",
+        link: "https://pubmed.ncbi.nlm.nih.gov/24667154/"
     },
     {
         id: 2,

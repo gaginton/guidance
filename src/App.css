@@ -1,12 +1,12 @@
 body {
-  background: #3da3d5;
+  background: #F5FFFF;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: rgb(53, 53, 53);
+  color: #DFA4C1;
 }
 
 .title {
-  font-size: 8em;
+  font-size: 64px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
 }
@@ -22,7 +22,7 @@ h3 {
 }
 
 .date {
-  color: rgb(201, 251, 255);
+  color: #3ed08a;
 }
 
 #description {
@@ -33,7 +33,7 @@ h3 {
   text-decoration: none;
   padding: 0.5em 1em;
   border-radius: 5px;
-  color: white;
+  color: black;
 }
 
 .workButton {
@@ -52,7 +52,10 @@ h3 {
   background-color: #f3bc3c;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
