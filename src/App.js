@@ -6,12 +6,8 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css"
 
 function App() {
-  let workIconStyles = {
-    background: "#06D6A0"
-  };
-  let schoolIconStyles = {
-    background: "#f9c74f"
-  }
+  let workIconStyles = { background: "#06D6A0" };
+  let schoolIconStyles = { background: "#f9c74f" };
 
   return (
     <div className="App">
@@ -19,7 +15,8 @@ function App() {
       <h1 className="title">Guy Ginton:
         <br />Digital Dreamer
       </h1>
-      <VerticalTimeline animate="true" lineColor="black">
+
+      <VerticalTimeline lineColor="black">
         {
           timelineElements.map(element => {
             let isWorkIcon = element.icon === "work";
@@ -30,7 +27,7 @@ function App() {
 
             return (
               <VerticalTimelineElement
-                key={element.key}
+                key={element.id}
                 date={element.date}
                 dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
