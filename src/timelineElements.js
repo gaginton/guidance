@@ -15,13 +15,14 @@ let timelineElements = [
     },
     {
         id: 2,
-        title: "Backend Developer",
-        location: "Skystead, Craonia",
+        title: "SetMine",
+        location: "Hollywood, Florida",
         description:
-            "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-        buttonText: "View Backend Projects",
+            "Managed the artist side of a streaming service written in JS. Tasks included artist outreach, managing social media accounts, overseeing development, uploading content to MySQL, creating marketing plans and press kits.",
+        buttonText: "View deprecated Facebook.",
         date: "June 2013 - August 2016",
         icon: "work",
+        link: "https://www.facebook.com/SetmineApp/"
     },
     {
         id: 3,
