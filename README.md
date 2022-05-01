@@ -3,13 +3,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 In the project directory, you can run:
-### `npm start` -- 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-### `npm run build`
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* npm i -- you know what it does!
+* npm start -- runs app in dev mode on http://localhost:3000
+* npm test -- runs test runners. currently not applicable.
+* npm run build -- makes a build of the app for deployment
+* npm run eject -- does anyone use this? please dont
+* firebase deploy -- deploys the latest build
 
 ## Learn More
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
