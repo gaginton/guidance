@@ -49,7 +49,7 @@ function App() {
                 {showButton && (
                   <a
                     className={
-                      `button ${isWorkIcon ? "workbutton" : "schoolButton"}`
+                      `button ${isWorkIcon ? "workButton" : "schoolButton"}`
                     }
                     href={element.link}
                     target="_blank" 
