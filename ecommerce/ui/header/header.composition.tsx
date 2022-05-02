@@ -5,11 +5,11 @@ import { Header } from './header';
 export const BasicHeader = () => (
   <MemoryRouter>
     <Header
-      logoText="Guidance Space"
+      logoText="Bit Sports Store"
       src="https://static.bit.dev/bit-logo.svg"
-      alt="GuySpace"
+      alt="Bit Logo"
     >
-      This is a test.
+      add some links here
     </Header>
   </MemoryRouter>
 );
