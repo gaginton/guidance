@@ -30,6 +30,7 @@ importers:
       react-router: 5.2.0
       react-scripts: ^2.1.3
       react-vertical-timeline-component: ^3.5.2
+      typescript: ^4.6.4
       web-vitals: ^2.1.4
     dependencies:
       '@bit/react-bootstrap.react-bootstrap.navbar': /@bit/react-bootstrap.react-bootstrap.navbar/1.0.0_react-dom@18.1.0+react@18.1.0
@@ -47,8 +48,9 @@ importers:
       firebase: registry.npmjs.org/firebase/9.7.0
       react: registry.npmjs.org/react/18.1.0
       react-dom: registry.npmjs.org/react-dom/18.1.0_react@18.1.0
-      react-scripts: registry.npmjs.org/react-scripts/2.1.8
+      react-scripts: registry.npmjs.org/react-scripts/2.1.8_typescript@4.6.4
       react-vertical-timeline-component: registry.npmjs.org/react-vertical-timeline-component/3.5.2_react@18.1.0
+      typescript: registry.npmjs.org/typescript/4.6.4
       web-vitals: registry.npmjs.org/web-vitals/2.1.4
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
@@ -12047,13 +12049,14 @@ packages:
     version: 1.1.0
     dev: false
 
-  registry.npmjs.org/pnp-webpack-plugin/1.2.1:
+  registry.npmjs.org/pnp-webpack-plugin/1.2.1_typescript@4.6.4:
     resolution: {integrity: sha512-W6GctK7K2qQiVR+gYSv/Gyt6jwwIH4vwdviFqx+Y2jAtVf5eZyYIDf5Ac2NCDMBiX5yWscBLZElPTsyA1UtVVA==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/pnp-webpack-plugin/-/pnp-webpack-plugin-1.2.1.tgz}
+    id: registry.npmjs.org/pnp-webpack-plugin/1.2.1
     name: pnp-webpack-plugin
     version: 1.2.1
     engines: {node: '>=6'}
     dependencies:
-      ts-pnp: registry.npmjs.org/ts-pnp/1.2.0
+      ts-pnp: registry.npmjs.org/ts-pnp/1.2.0_typescript@4.6.4
     transitivePeerDependencies:
       - typescript
     dev: false
@@ -13322,8 +13325,9 @@ packages:
       tiny-invariant: registry.npmjs.org/tiny-invariant/1.2.0
       tiny-warning: registry.npmjs.org/tiny-warning/1.0.3
 
-  registry.npmjs.org/react-scripts/2.1.8:
+  registry.npmjs.org/react-scripts/2.1.8_typescript@4.6.4:
     resolution: {integrity: sha512-mDC8fYWCyuB9VROti8OCPdHE79UEchVVZmuS/yaIs47VkvZpgZqUvzghYBswZRchqnW0aARNY8xXrzoFRhhK7A==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/react-scripts/-/react-scripts-2.1.8.tgz}
+    id: registry.npmjs.org/react-scripts/2.1.8
     name: react-scripts
     version: 2.1.8
     engines: {node: '>=8.10'}
@@ -13359,7 +13363,7 @@ packages:
       jest-watch-typeahead: registry.npmjs.org/jest-watch-typeahead/0.2.1
       mini-css-extract-plugin: registry.npmjs.org/mini-css-extract-plugin/0.5.0_webpack@4.28.3
       optimize-css-assets-webpack-plugin: registry.npmjs.org/optimize-css-assets-webpack-plugin/5.0.1_webpack@4.28.3
-      pnp-webpack-plugin: registry.npmjs.org/pnp-webpack-plugin/1.2.1
+      pnp-webpack-plugin: registry.npmjs.org/pnp-webpack-plugin/1.2.1_typescript@4.6.4
       postcss-flexbugs-fixes: registry.npmjs.org/postcss-flexbugs-fixes/4.1.0
       postcss-loader: registry.npmjs.org/postcss-loader/3.0.0
       postcss-preset-env: registry.npmjs.org/postcss-preset-env/6.5.0
@@ -15178,8 +15182,9 @@ packages:
     version: 1.0.1
     dev: false
 
-  registry.npmjs.org/ts-pnp/1.2.0:
+  registry.npmjs.org/ts-pnp/1.2.0_typescript@4.6.4:
     resolution: {integrity: sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/ts-pnp/-/ts-pnp-1.2.0.tgz}
+    id: registry.npmjs.org/ts-pnp/1.2.0
     name: ts-pnp
     version: 1.2.0
     engines: {node: '>=6'}
@@ -15188,6 +15193,8 @@ packages:
     peerDependenciesMeta:
       typescript:
         optional: true
+    dependencies:
+      typescript: registry.npmjs.org/typescript/4.6.4
     dev: false
 
   registry.npmjs.org/tslib/1.14.1:
@@ -15245,6 +15252,14 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz}
     name: typedarray
     version: 0.0.6
+    dev: false
+
+  registry.npmjs.org/typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==, registry: https://node.bit.cloud/, tarball: https://registry.npmjs.org/typescript/-/typescript-4.6.4.tgz}
+    name: typescript
+    version: 4.6.4
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: false
 
   registry.npmjs.org/uglify-js/3.15.4:

@@ -11,7 +11,8 @@ In the project directory, you can run:
 * firebase deploy -- deploys the latest build
 
 But I'm using Bit now!
-* bit status -- check status
+* bit status -- check status; shows modified and new components
+* bit tag "$message" -- locks changes to components
 * bit init -- makes workspace.json, .bitmap, hidden bit files
 * bit start -- starts local dev server; see everything rendered in isolation; see dependencies and other info
 * bit install -- installs dependencies
@@ -19,6 +20,8 @@ But I'm using Bit now!
 * bit test -- runs tests in isolation
 * bit check-types -- validate type script types
 * bit show $component (ex: ui/button) -- pulls table with details on the component
+* bit remove $component (ex: ui/my-welcome) -- removes and deletes component from local scope.
+* bit remove $orgName.$scopename.$component --remote (ex: kingofthechill.guidancespace) -- removes and deletes component remotely. did not work?
 
 Need to fix error. Keep re-running:
 * export PATH=$HOME/bin:$PATH
