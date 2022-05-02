@@ -11,12 +11,18 @@ In the project directory, you can run:
 * firebase deploy -- deploys the latest build
 
 But I'm using Bit now!
+* bit status -- check status
 * bit init -- makes workspace.json, .bitmap, hidden bit files
-* bit start -- starts local dev server; see everything is rendered in isolation
+* bit start -- starts local dev server; see everything rendered in isolation; see dependencies and other info
 * bit install -- installs dependencies
-* bit compile -- ensure compilation is successful
+* bit compile -- ensure compilation is successful; not mandatory (auto runs)
 * bit test -- runs tests in isolation
 * bit check-types -- validate type script types
+* bit show $component (ex: ui/button) -- pulls table with details on the component
+
+Need to fix error. Keep re-running:
+* export PATH=$HOME/bin:$PATH
+* npx @teambit/bvm install 
 
 ## Learn More
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

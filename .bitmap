@@ -9,5 +9,29 @@
  */
 
 {
+    "ui/header": {
+        "scope": "learn-bit-react.ecommerce",
+        "version": "1.0.24",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/header",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "ui/my-welcome": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/ui/my-welcome",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
     "$schema-version": "14.9.0"
 }
