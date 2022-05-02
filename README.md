@@ -10,6 +10,14 @@ In the project directory, you can run:
 * npm run eject -- does anyone use this? please dont
 * firebase deploy -- deploys the latest build
 
+But I'm using Bit now!
+* bit init -- makes workspace.json, .bitmap, hidden bit files
+* bit start -- starts local dev server; see everything is rendered in isolation
+* bit install -- installs dependencies
+* bit compile -- ensure compilation is successful
+* bit test -- runs tests in isolation
+* bit check-types -- validate type script types
+
 ## Learn More
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
