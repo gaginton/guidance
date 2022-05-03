@@ -9,17 +9,5 @@
  */
 
 {
-    "ui/header": {
-        "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.24",
-        "mainFile": "index.ts",
-        "rootDir": "ecommerce/ui/header",
-        "config": {
-            "teambit.react/react": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react"
-            }
-        }
-    },
     "$schema-version": "14.9.0"
 }

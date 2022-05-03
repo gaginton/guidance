@@ -21,11 +21,16 @@ But I'm using Bit now!
 * bit check-types -- validate type script types
 * bit show $component (ex: ui/button) -- pulls table with details on the component
 * bit remove $component (ex: ui/my-welcome) -- removes and deletes component from local scope.
+-- add --force if the component is modified
 * bit remove $orgName.$scopename.$component --remote (ex: kingofthechill.guidancespace) -- removes and deletes component remotely. did not work?
 
 Need to fix error. Keep re-running:
 * export PATH=$HOME/bin:$PATH
 * npx @teambit/bvm install 
+
+
+Ex: Adding component
+bit add
 
 ## Learn More
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
