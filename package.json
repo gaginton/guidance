@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@bit/eden.buy-a-goldfish.blocks.footer": "^0.0.2",
+    "@bit/eden.buy-a-goldfish.common.layout": "^0.0.2",
     "@bit/ishayyemini.design-system-demo.header": "^1.0.1",
     "@bit/react-bootstrap.react-bootstrap.button": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.dropdown": "^1.0.0",
+    "@bit/react-bootstrap.react-bootstrap.dropdown-button": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.form-control": "^1.0.0",
     "@bit/react-bootstrap.react-bootstrap.internal.style-links": "^1.0.0",

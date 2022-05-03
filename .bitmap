@@ -9,5 +9,17 @@
  */
 
 {
+    "timeline": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "Timeline.js",
+        "rootDir": "src/components/timeline"
+    },
+    "title": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "Title.js",
+        "rootDir": "src/components/title"
+    },
     "$schema-version": "14.9.0"
 }

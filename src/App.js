@@ -2,21 +2,17 @@ import React from 'react';
 import './App.css';
 
 import NavbarComponent from './components/navbar/Navbar';
-import Timeline from './timeline/Timeline';
+import Timeline from './components/timeline/Timeline';
+import Title from './components/title/Title';
+// import FooterComponent from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-
-      <NavbarComponent />
-      <br />
-
-      <h1 className="title">Guy Ginton:
-        <br />Digital Dreamer
-      </h1>
-
+      <NavbarComponent animation="false"/>
+      <Title />
       <Timeline />
-
+      {/* <FooterComponent /> */}
     </div >
   );
 }
