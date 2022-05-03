@@ -11,7 +11,7 @@ import ReactBootstrapStyle from '@bit/react-bootstrap.react-bootstrap.internal.s
 function NavbarComponent() {
     return (
         <Navbar collapseOnSelect style={{ minWidth: 700, background: "#DFA4C1", color: "white" }} animation="false" >
-            <Navbar.Brand href="#home" className="bold">GuySpace</Navbar.Brand>
+            <Navbar.Brand href="#home">GuySpace</Navbar.Brand>
 
 
             {/* <Dropdown  animation="false"> */}
@@ -39,7 +39,6 @@ function NavbarComponent() {
                 <FormControl type="text" placeholder="Search" className="mr-sm-2" />
                 <Button variant="outline-info">Search</Button>
             </Form> */}
-            
         </Navbar>
     );
 }
