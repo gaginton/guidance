@@ -5,6 +5,7 @@ import NavbarComponent from './components/navbar/Navbar';
 import Timeline from './components/timeline/Timeline';
 import Title from './components/title/Title';
 import Divider from './components/divider/Divider';
+import ProjectsOverview from './components/project-overview/ProjectsOverview';
 // import FooterComponent from './components/footer/Footer';
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
     <div className="App">
       <NavbarComponent animation="false" />
       <Title />
+      <Divider >Projects</Divider>
+      <ProjectsOverview />
       <Divider >Timeline</Divider>
       <Timeline />
       {/* <FooterComponent /> */}

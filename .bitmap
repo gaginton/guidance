@@ -15,6 +15,12 @@
         "mainFile": "Divider.js",
         "rootDir": "src/components/divider"
     },
+    "project-overview": {
+        "scope": "",
+        "version": "",
+        "mainFile": "ProjectsOverview.js",
+        "rootDir": "src/components/project-overview"
+    },
     "timeline": {
         "scope": "",
         "version": "0.0.1",
