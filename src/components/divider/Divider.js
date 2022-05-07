@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Divider = ({ children }) => {
+function Divider({ children }) {
     return (
         <div className="container">
             <div className="border" />
