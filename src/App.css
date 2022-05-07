@@ -1,14 +1,21 @@
 body {
   background: #F5FFFF;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #DFA4C1;
 }
 
+.App {
+  width: 100%;
+}
+
 .title {
+  margin: 20px 0px;
   font-size: 64px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
+  color: black;
+  font-weight: bold;
 }
 
 h3 {
@@ -27,6 +34,7 @@ h3 {
 
 #description {
   margin: 1.5em 0 2em 0;
+  font-size: 18px;
 }
 
 .button {
@@ -53,9 +61,6 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
-  .title {
-    font-size: 20px;
-  }
   .vertical-timeline-element-date {
     display: block !important;
     float: none !important;
@@ -64,22 +69,27 @@ h3 {
   }
 }
 
-a.navbar-brand, a.nav-link {
+.vertical-timeline-element .vertical-timeline-element-date {
+  font-size: 20px !important;
+}
+
+a.navbar-brand,
+a.nav-link {
   color: white !important;
 }
 
 .bold {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
 }
 
-.container .border{
+.container .border {
   border-bottom: 2px solid #DFA4C1 !important;
-  width: 100%;  
+  width: 100%;
 }
 
 .container .content {
@@ -88,6 +98,7 @@ a.navbar-brand, a.nav-link {
 
 .divider-text {
   color: #DFA4C1;
+  font-size: 20px;
 }
 
 .divider-text {

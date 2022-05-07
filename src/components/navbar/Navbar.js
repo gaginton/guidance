@@ -28,7 +28,7 @@ function NavbarComponent() {
                 <Nav.Link href="https://kingchill.com/" target="_blank" rel="noopener noreferrer">King Chill</Nav.Link>
                 <Nav.Link href="https://playlocal.games/" target="_blank" rel="noopener noreferrer">Reccess</Nav.Link>
                 <Nav.Link href="https://wordleydurdley.com/" target="_blank" rel="noopener noreferrer">Wordley Durdley</Nav.Link>
-                <Nav.Link href="#home">Try Me</Nav.Link>
+                <Nav.Link disabled>Try Me</Nav.Link>
                 {/* <Nav.Link href="#timeline">Timeline</Nav.Link> */}
             </Nav>
             {/* </DropdownButton> */}

@@ -4,7 +4,7 @@ let timelineElements = [
         title: "University of Florida: Honors Student",
         location: "Gainesville, Florida",
         description:
-            "Studied neuroscience and economics, averaging a 3.5 GPA among 220+ credits. Conducted a study published in the journal Addiction. Held leadership role in six extracurricular groups.",
+            "Studied neuroscience and economics, averaging a 3.5 GPA among 220+ credits. Conducted a study published in the journal Addiction. Held leadership roles in Neuroscience Club, Libertarian Club, Ad Society and more.",
         date: "Aug 2010 - May 2014",
         icon: "school",
         buttonText: "View study",
@@ -68,7 +68,7 @@ let timelineElements = [
         title: "Jeeng (PowerInbox): Full Stack Developer",
         location: "Tel Aviv, Israel",
         description:
-            "Worked with Vue.js, GraphQL, BigQuery, PostgreSQL and memSQL (Single Store). Wrote unit tests with Mocha and Chai. Was greatly involved with data mgmt and overseeing schema changes. Previously used Hitachi's Pentaho platform, later Google Data Studio and Looker, to visualize data. Pull requests went through Jenkins. Environment involved Kubernetes and Docker.",
+            "Worked with Vue.js, GraphQL, BigQuery, PostgreSQL and memSQL (Single Store). Wrote unit tests with Mocha and Chai. Was greatly involved with data management, cost reductions and overseeing schema changes. Previously used Hitachi's Pentaho platform, later Google Data Studio and Looker, to visualize data. Pull requests went through Jenkins. Environment involved Kubernetes and Docker.",
         date: "Dec 2019 - Jan 2022",
         icon: "work",
         buttonText: "Company Website",
