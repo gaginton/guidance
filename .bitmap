@@ -9,6 +9,12 @@
  */
 
 {
+    "divider": {
+        "scope": "",
+        "version": "",
+        "mainFile": "Divider.js",
+        "rootDir": "src/components/divider"
+    },
     "timeline": {
         "scope": "",
         "version": "0.0.1",

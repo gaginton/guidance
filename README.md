@@ -11,6 +11,7 @@ Need to fix error. Keep re-running:
 In the project directory, you can run these common npm commands:
 * npm i -- you know what it does!
 * npm start -- runs app in dev mode on http://localhost:3000
+* npm run build -- makes a build of the app for deployment
 * firebase deploy -- deploys the latest build
 
 Bit commands include:

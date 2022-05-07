@@ -71,3 +71,25 @@ a.navbar-brand, a.nav-link {
 .bold {
   font-weight: bold;
 }
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.container .border{
+  border-bottom: 2px solid #DFA4C1 !important;
+  width: 100%;  
+}
+
+.container .content {
+  padding: 0px 10px;
+}
+
+.divider-text {
+  color: #DFA4C1;
+}
+
+.divider-text {
+  padding: 10px;
+}
