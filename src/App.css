@@ -5,16 +5,16 @@ body {
   color: #DFA4C1;
 }
 
-.App {
-  width: 100%;
-}
+/* .App {
+  width: 100vw;
+} */
 
 .title {
   margin: 20px 0px;
   font-size: 64px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  color: black;
+  color: #23272B;
   font-weight: bold;
 }
 
@@ -103,4 +103,9 @@ a.nav-link {
 
 .divider-text {
   padding: 10px;
+}
+
+.space-evenly {
+  align-items: center;
+  justify-content: space-evenly !important;
 }

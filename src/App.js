@@ -7,12 +7,16 @@ import Title from './components/title/Title';
 import Divider from './components/divider/Divider';
 import ProjectsOverview from './components/project-overview/ProjectsOverview';
 // import FooterComponent from './components/footer/Footer';
+import ConnectButton from './components/connect-button/ConnectButton';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <div className="App">
       <NavbarComponent animation="false" />
       <Title />
+      <ConnectButton />
       <Divider >Projects</Divider>
       <ProjectsOverview />
       <Divider >Timeline</Divider>

@@ -26,8 +26,8 @@ function NavbarComponent() {
             {/* <Dropdown.Item href="#/action-1">Action</Dropdown.Item> */}
             <Nav className="mr-auto" >
                 <Nav.Link href="https://kingchill.com/" target="_blank" rel="noopener noreferrer">King Chill</Nav.Link>
-                <Nav.Link href="https://playlocal.games/" target="_blank" rel="noopener noreferrer">Recess</Nav.Link>
                 <Nav.Link href="https://wordleydurdley.com/" target="_blank" rel="noopener noreferrer">Wordley Durdley</Nav.Link>
+                <Nav.Link href="https://playlocal.games/" target="_blank" rel="noopener noreferrer">Recess</Nav.Link>
                 <Nav.Link disabled>Try Me</Nav.Link>
                 {/* <Nav.Link href="#timeline">Timeline</Nav.Link> */}
             </Nav>
