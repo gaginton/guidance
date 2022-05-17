@@ -8,21 +8,24 @@ import Divider from './components/divider/Divider';
 import ConnectButton from './components/connect-button/ConnectButton';
 import AboutMeOverview from './components/about-overview/AboutMeOverview';
 import ProjectsOverview from './components/project-overview/ProjectsOverview';
-// import FooterComponent from './components/footer/Footer';
+import HobbiesOverview from './components/hobies-overview/HobiesOverview';
+import FooterComponent from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <NavbarComponent animation="false" />
+      <NavbarComponent />
       <Title />
       <ConnectButton />
       <Divider >Objectives</Divider>
       <AboutMeOverview />
       <Divider >Projects</Divider>
       <ProjectsOverview />
-      <Divider >Timeline</Divider>
+      <Divider >Experience</Divider>
       <Timeline />
-      {/* <FooterComponent /> */}
+      <Divider >Hobbies</Divider>
+      <HobbiesOverview />
+      <FooterComponent />
     </div >
   );
 }

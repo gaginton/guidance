@@ -14,6 +14,15 @@ body {
   font-weight: bold;
 }
 
+.about-me-overview {
+  margin: 20px 0px;
+  font-size: 32px;
+  text-align: left;
+  font-family: "Bebas Neue", sans-serif;
+  color: #23272B;
+  font-weight: bold;
+}
+
 h3 {
   padding-top: 15px;
 }
@@ -24,7 +33,7 @@ h3 {
   padding: 2em 3em !important;
 }
 
-.date {
+.date, .stack, .link-text {
   color: #3ed08a;
 }
 
@@ -104,4 +113,13 @@ a.nav-link {
 .space-evenly {
   align-items: center;
   justify-content: space-evenly !important;
+}
+
+.hobbies-container {
+  margin-bottom: 80px;
+}
+
+.footer-text {
+  font-size: 12px;
+  margin-bottom: 20px;
 }
