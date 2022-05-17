@@ -18,9 +18,18 @@ function NavbarComponent() {
                         {/* <Dropdown.Item href="#timeline">Timeline</Dropdown.Item> */}
                     </DropdownButton>
                 </Nav>
-
             </Navbar.Collapse>
-        </Navbar>
+            <div className="d-flex">
+                <Navbar.Text>
+                    <a
+                        href="https://www.linkedin.com/in/guyginton/"
+                        className='text-info bold'
+                    >
+                    LinkedIn
+                </a>
+            </Navbar.Text>
+        </div>
+        </Navbar >
     );
 }
 
