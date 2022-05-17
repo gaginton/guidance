@@ -1,16 +1,19 @@
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It is using NPM and Bit. Check if the terminal is running node, zsh or bit.
-Deployments and analytics are through Firebase.
+It is using NPM, Firebase and Bit. 
 
-Need to fix error. Keep re-running:
+Check if the terminal is running node, zsh or bit.
+If you encounter an area with bit commands do not work, run:
 * export PATH=$HOME/bin:$PATH
+Then either run:
+* bit start
+OR
 * npx @teambit/bvm install 
 
 ## Available Scripts
 In the project directory, you can run these common npm commands:
 * npm i -- you know what it does!
-* npm start -- runs app in dev mode on http://localhost:3000
+* npm start -- runs app in dev mode on local host
 * npm run build -- makes a build of the app for deployment
 * firebase deploy -- deploys the latest build
 
@@ -39,11 +42,7 @@ For testing and deployment in future, may use following:
 * bit check-types -- validate type script types
 
 ## Learn More
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Deployment
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 Even more scripts:
-* npm view react version
+* npm view react version -- Please check you are on a late NPM version for security and compatability purposes
