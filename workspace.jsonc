@@ -38,7 +38,9 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@teambit/design.ui.dropdown": "1.1.0"
+      },
       "peerDependencies": {}
     }
   },

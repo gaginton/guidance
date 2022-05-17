@@ -8,8 +8,6 @@ import Divider from './components/divider/Divider';
 import ProjectsOverview from './components/project-overview/ProjectsOverview';
 // import FooterComponent from './components/footer/Footer';
 import ConnectButton from './components/connect-button/ConnectButton';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 function App() {
   return (

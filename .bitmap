@@ -9,11 +9,23 @@
  */
 
 {
+    "connect-button": {
+        "scope": "",
+        "version": "",
+        "mainFile": "ConnectButton.js",
+        "rootDir": "src/components/connect-button"
+    },
     "divider": {
         "scope": "",
         "version": "",
         "mainFile": "Divider.js",
         "rootDir": "src/components/divider"
+    },
+    "navbar": {
+        "scope": "",
+        "version": "",
+        "mainFile": "Navbar.js",
+        "rootDir": "src/components/navbar"
     },
     "project-overview": {
         "scope": "",

@@ -1,15 +1,15 @@
 import React from 'react';
-import Button from '@bit/react-bootstrap.react-bootstrap.button';
+import { Button } from 'react-bootstrap';
 
 function ConnectButton() {
     return (
         <div className="container space-evenly">
             <Button
-                class="connect-btn"
+                className="connect-btn"
                 variant="outline-dark"
                 size="lg"
                 onClick={
-                    () => window.location = 'mailto:guyginton@gmail.com?subject=Hi Guy!&body=I clicked the button on guidancespace.com'
+                    () => window.location = 'mailto:guyginton@gmail.com?subject=Hi Guy!&body=[Referred by guidancespace.com]'
                 }
             >
                 Email Me
