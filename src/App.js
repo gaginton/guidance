@@ -5,9 +5,10 @@ import NavbarComponent from './components/navbar/Navbar';
 import Timeline from './components/timeline/Timeline';
 import Title from './components/title/Title';
 import Divider from './components/divider/Divider';
+import ConnectButton from './components/connect-button/ConnectButton';
+import AboutMeOverview from './components/about-overview/AboutMeOverview';
 import ProjectsOverview from './components/project-overview/ProjectsOverview';
 // import FooterComponent from './components/footer/Footer';
-import ConnectButton from './components/connect-button/ConnectButton';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <NavbarComponent animation="false" />
       <Title />
       <ConnectButton />
+      <Divider >Objectives</Divider>
+      <AboutMeOverview />
       <Divider >Projects</Divider>
       <ProjectsOverview />
       <Divider >Timeline</Divider>

@@ -9,6 +9,12 @@
  */
 
 {
+    "about-overview": {
+        "scope": "",
+        "version": "",
+        "mainFile": "AboutMeOverview.js",
+        "rootDir": "src/components/about-overview"
+    },
     "connect-button": {
         "scope": "",
         "version": "",

@@ -1,5 +1,4 @@
 import React from 'react';
-// import "react-vertical-timeline-component/style.min.css"
 
 function ProjectsOverview() {
     return (
@@ -17,7 +16,7 @@ function ProjectsOverview() {
 
                 <h3>Wordley Durdley</h3>
                 <div>A dynamic "Wordle" clone using perfectly cromulent words from The Simpsons.</div>
-                <div>Soon to add a multi-player Wordle game, akin to "Wordle meets Hangman"!</div>
+                <div>Soon to add a multi-player Wordle game, akin to "Wordle meets Hangman!"</div>
                 <div>Stack: Vanilla JavaScript</div>
                 
                 <h3>Try Me (Coming Soon)</h3>
