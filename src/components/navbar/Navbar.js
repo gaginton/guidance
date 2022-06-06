@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactBootstrapStyle from '@bit/react-bootstrap.react-bootstrap.internal.style-links';
-import { Nav, Navbar, Dropdown, DropdownButton } from 'react-bootstrap';
+import { Nav, Navbar, Dropdown, DropdownButton, } from 'react-bootstrap';
 
 function NavbarComponent() {
     return (
@@ -25,12 +25,13 @@ function NavbarComponent() {
                         href="https://www.linkedin.com/in/guyginton/"
                         className='text-info bold'
                     >
-                    LinkedIn
-                </a>
-            </Navbar.Text>
-        </div>
+                        LinkedIn
+                    </a>
+                </Navbar.Text>
+            </div>
         </Navbar >
     );
 }
 
 export default () => (<div><ReactBootstrapStyle /><NavbarComponent /></div>)  
+// export default NavbarComponent;

@@ -33,7 +33,9 @@ h3 {
   padding: 2em 3em !important;
 }
 
-.date, .stack, .link-text {
+.date,
+.stack,
+.link-text {
   color: #3ed08a;
 }
 
@@ -123,3 +125,22 @@ a.nav-link {
   font-size: 12px;
   margin-bottom: 20px;
 }
+
+.end-cursor:after {
+  content: '|';
+  @apply text-secondary-300;
+}
+
+.end-cursor.blinking:after {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* .button {
+  @apply border-2 px-8 py-3 flex justify-center font-semibold md: text-lg md:py-4 md:px-10 rounded-lg relative shadow transition hover:shadow-md mb-4 active:top-1;
+} */
