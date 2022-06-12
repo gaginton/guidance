@@ -12,7 +12,7 @@
     "about-overview": {
         "scope": "",
         "version": "",
-        "mainFile": "AboutMeOverview.js",
+        "mainFile": "AboutMeOverview.tsx",
         "rootDir": "src/components/about-overview"
     },
     "connect-button": {

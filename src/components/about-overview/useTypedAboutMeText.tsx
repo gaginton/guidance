@@ -1,11 +1,10 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react'
 
-// IF TYPESCRIPT TSX cAN USE ENUM INSTEAD OF CONST
-export const TypePhase = {
-    Typing: "Typing",
-    Pausing: "Pausing",
-    Deleting: "Deleting"
-};
+export enum TypePhase {
+    Typing,
+    Pausing,
+    Deleting,
+}
 
 const TYPING_INTERVAL_MIN = 80;
 const TYPING_INTERVAL_MAX = 150;
@@ -18,7 +17,14 @@ const getRandomTypingInterval = () =>
         * (TYPING_INTERVAL_MAX - TYPING_INTERVAL_MIN + 1)
     ) + TYPING_INTERVAL_MIN;
 
-const useTypedAboutMeText = (aboutMeTextInput) => {
+export const useTypedAboutMeText = (
+    aboutMeTextInput: string[]
+): {
+    typedAboutMeText: string
+    selectedAboutMeText: string
+    phase: TypePhase
+    resume: () => void
+} => {
     const [selectedIndex, setSelectedIndex] = useState(0)
     const [phase, setPhase] = useState(TypePhase.Typing)
     const [typedAboutMeText, setTypedAboutMeText] = useState('');
@@ -77,9 +83,14 @@ const useTypedAboutMeText = (aboutMeTextInput) => {
         }
     }, [aboutMeTextInput, typedAboutMeText, selectedIndex, phase])
 
-    let selectedAboutMeText = aboutMeTextInput[selectedIndex]
+    // let selectedAboutMeText = aboutMeTextInput[selectedIndex]
 
-    return (typedAboutMeText, phase, resume, selectedAboutMeText);
+    return {
+        typedAboutMeText,
+        phase,
+        resume,
+        selectedAboutMeText: aboutMeTextInput[selectedIndex],
+    }
 }
 
-export default useTypedAboutMeText;
+// export default useTypedAboutMeText;
