@@ -7,7 +7,7 @@ let timelineElements = [
             "Studied neuroscience and economics, averaging a 3.5 GPA among 220+ credits. Conducted a study published in the journal Addiction. Held leadership roles in Neuroscience Club, Libertarian Club, Ad Society and more.",
         date: "Aug 2010 - May 2014",
         icon: "school",
-        buttonText: "View study",
+        buttonText: "View Study",
         link: "https://pubmed.ncbi.nlm.nih.gov/24667154/"
     },
     {
@@ -57,7 +57,7 @@ let timelineElements = [
         title: "Spot.IM (OpenWeb): Technical Support Engineer",
         location: "Tel Aviv, Israel",
         description:
-            "Built a Chrome extension (vanilla JS) to grab elements from the DOM, to easily debug web integration. Helped account managers and clients answer technical questions. Assisted in QA and infrastructure rollouts. Created test web pages.",
+            "Built a Chrome extension (vanilla JS) to grab elements from the DOM, to easily debug web integration. Helped account managers and clients answer technical questions. Assisted in QA and infrastructure rollouts. Created test pages.",
         date: "Apr 2019 - Dec 2019",
         icon: "work",
         buttonText: "Company Website",
