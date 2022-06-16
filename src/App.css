@@ -14,7 +14,20 @@ nav.navbar {
   top: 0;
   width: 100%;
   /* font-size: 16px; */
-  opacity: 90%;
+  opacity: 0.9;
+}
+
+div.dropdown.show,
+div.dropdown-menu,
+a.dropdown-item {
+  opacity: 1;
+  max-width: 100%;
+}
+
+a.dropdown-item:hover {
+  background-color: #17a2b8;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 div.main {

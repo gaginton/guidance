@@ -14,6 +14,7 @@ function NavbarComponent() {
                         <Dropdown.Item href="https://kingchill.com/" target="_blank" rel="noopener noreferrer">King Chill</Dropdown.Item>
                         <Dropdown.Item href="https://wordleydurdley.com/" target="_blank" rel="noopener noreferrer">Wordley Durdley</Dropdown.Item>
                         <Dropdown.Item href="https://playlocal.games/" target="_blank" rel="noopener noreferrer">Recess</Dropdown.Item>
+                        <Dropdown.Divider />
                         <Dropdown.Item disabled>Try Me</Dropdown.Item>
                         {/* <Dropdown.Item href="#timeline">Timeline</Dropdown.Item> */}
                     </DropdownButton>
@@ -24,6 +25,8 @@ function NavbarComponent() {
                     <a
                         href="https://www.linkedin.com/in/guyginton/"
                         className='text-info bold'
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         LinkedIn
                     </a>
@@ -33,5 +36,5 @@ function NavbarComponent() {
     );
 }
 
-export default () => (<div><ReactBootstrapStyle /><NavbarComponent /></div>)  
+export default () => (<div><ReactBootstrapStyle /><NavbarComponent /></div>)
 // export default NavbarComponent;
