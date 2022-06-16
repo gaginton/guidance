@@ -4,7 +4,7 @@ import { Nav, Navbar, Dropdown, DropdownButton, } from 'react-bootstrap';
 
 function NavbarComponent() {
     return (
-        <Navbar collapseOnSelect style={{ background: "#DFA4C1", color: "white" }} animation="false" >
+        <Navbar collapseOnSelect style={{ background: "#DFA4C1", color: "white" }} animation="false" fixed={'top'} >
             <Navbar.Brand href="#home">GuySpace</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">

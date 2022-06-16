@@ -8,8 +8,9 @@ type Props = {
 
 const aboutMeText2 = [
     'that balances my tech and social interests.',
-    'at a company that promotes from within.',
-    'as a solutions engineer or tech support agent.'
+    'at a company that promotes employees.',
+    'as a T3 Tech Support Agent or Solutions Engineer.',
+    'where decisions are based on metrics, not stories.'
 ];
 
 export const AboutMeOverview = ({ aboutMeText }: Props) => {

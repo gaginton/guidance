@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import NavbarComponent from './components/navbar/Navbar';
+import Main from './components/main/Main';
 import Timeline from './components/timeline/Timeline';
 import Title from './components/title/Title';
 import Divider from './components/divider/Divider';
@@ -18,18 +19,20 @@ export type HomeProps = {
 export const App = ({ aboutMeText }: HomeProps) => (
   <div className="App">
     <NavbarComponent />
-    <Title />
-    <ConnectButton />
-    <Divider >Objectives</Divider>
-    <AboutMeOverview
-      aboutMeText={aboutMeText}
-    />
-    <Divider >Projects</Divider>
-    <ProjectsOverview />
-    <Divider >Experience</Divider>
-    <Timeline />
-    <Divider >Hobbies</Divider>
-    <HobbiesOverview />
+    <Main>
+      <Title />
+      <ConnectButton />
+      <Divider >Objectives</Divider>
+      <AboutMeOverview
+        aboutMeText={aboutMeText}
+      />
+      <Divider >Projects</Divider>
+      <ProjectsOverview />
+      <Divider >Experience</Divider>
+      <Timeline />
+      <Divider >Hobbies</Divider>
+      <HobbiesOverview />
+    </Main>
     <FooterComponent />
   </div >
 );
