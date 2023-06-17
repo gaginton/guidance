@@ -4,7 +4,7 @@ function ProjectsOverview() {
     return (
         <div className="container">
             <div>
-                <h3>Try Me (Coming Soon)</h3>
+                <h3>Try Me!</h3>
                 <div>A mock court for handling fun disputes and learning various speaking skills.</div>
                 <div>The app supports audio and video chat within games, or using third party apps like Google Hangout.</div>
                 <div>Adding options for a randomized judge based on available players.</div>
