@@ -7,7 +7,7 @@ import React from 'react';
 function FooterComponent() {
     return (
         <div className="container">
-            <div className='footer-text'>Made by Guy Ginton using Bit, Firebase and React.</div>
+            <div className='footer-text'>Made by Guy Ginton using React and Firebase.</div>
         </div>
         // <Layout>
         //     <Footer logo="Goldfish inc.">

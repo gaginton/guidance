@@ -7,9 +7,7 @@ type Props = {
 }
 
 const aboutMeText2 = [
-    `that balances my tech and social interests.`,
-    `at a company that promotes employees.`,
-    `as a Solutions Engineer or T3 Technical Support Agent.`,
+    `that balances my technical and social interests.`,
     `where decisions are based on metrics, not stories.`,
     `where "Subject-matter Expertise" is rewarded.`
 ];

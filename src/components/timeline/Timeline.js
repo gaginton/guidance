@@ -14,6 +14,7 @@ function Timeline() {
             {
                 timelineElements.map(element => {
                     let isWorkIcon = element.icon === "work";
+                    let isVolunteerIcon = element.icon === "volunteer";
                     let showButton =
                         element.buttonText !== undefined &&
                         element.buttonText !== null &&

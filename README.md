@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-It is using NPM, Firebase and Bit. 
+It is using NPM and Firebase. 
 
 Check if the terminal is running node, zsh or bit.
 If you encounter an area with bit commands do not work, run:
