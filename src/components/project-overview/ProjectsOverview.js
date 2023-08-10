@@ -5,9 +5,10 @@ function ProjectsOverview() {
         <div className="container">
             <div>
                 <h3>Try Me!</h3>
-                <div>A mock court for handling fun disputes and learning various speaking skills.</div>
-                <div>The app supports audio and video chat within games, or using third party apps like Google Hangout.</div>
-                <div>Adding options for a randomized judge based on available players.</div>
+                <div>A mock court for better debates and learning speaking skills.</div>
+                <div>The app supports audio and video chat within Trials.</div>
+                <div>Our primary product will be a community, including "Pros" who provide feedback and coaching.</div>
+                <div>Our priorities are giving professional feedback, for better debate competition.</div>
                 <div className='stack'>Stack: React Native</div>
 
                 <h3>King of the Chill</h3>

@@ -7,9 +7,11 @@ type Props = {
 }
 
 const aboutMeText2 = [
-    `that balances my technical and social interests.`,
-    `where decisions are based on metrics, not stories.`,
-    `where "Subject-matter Expertise" is rewarded.`
+    `.`,
+    ` that balances my technical and social interests.`,
+    ` where decisions are based on metrics, not stories.`,
+    ` which promotes internal employees before hiring.`,
+    ` where "Subject-matter Expertise" is rewarded.`
 ];
 
 export const AboutMeOverview = ({ aboutMeText }: Props) => {
@@ -26,7 +28,7 @@ export const AboutMeOverview = ({ aboutMeText }: Props) => {
                 aria-label={selectedAboutMeText}
             // className="about-me-overview end-cursor blinking"
             >
-                I am searching for a job {typedAboutMeText}
+                I am searching for a job{typedAboutMeText}
             </h1>
         </div>
     );
