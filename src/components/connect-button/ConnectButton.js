@@ -14,6 +14,16 @@ function ConnectButton() {
             >
                 Email Me
             </Button>
+            <Button
+                className="connect-btn"
+                variant="outline-dark"
+                size="lg"
+                onClick={
+                    () => window.location.href = 'https://www.linkedin.com/in/guyginton/'
+                }
+            >
+                LinkedIn
+            </Button>
         </div>
     );
 }

@@ -6,7 +6,7 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css"
 
 function Timeline() {
-    let workIconStyles = { background: "#06D6A0" };
+    let workIconStyles = { background: "#7EB9FF" };
     let schoolIconStyles = { background: "#f9c74f" };
 
     return (
@@ -14,7 +14,7 @@ function Timeline() {
             {
                 timelineElements.map(element => {
                     let isWorkIcon = element.icon === "work";
-                    let isVolunteerIcon = element.icon === "volunteer";
+                    // let isVolunteerIcon = element.icon === "volunteer";
                     let showButton =
                         element.buttonText !== undefined &&
                         element.buttonText !== null &&

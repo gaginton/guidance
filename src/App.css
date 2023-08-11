@@ -77,7 +77,8 @@ h3 {
 .date,
 .stack,
 .link-text {
-  color: #3ed08a;
+  color: #7EB9FF;
+  font-weight: bold;
 }
 
 #description {
@@ -93,11 +94,11 @@ h3 {
 }
 
 .workButton {
-  background-color: #06d6a0;
+  background-color: #7EB9FF;
 }
 
 .workButton:hover {
-  background-color: #0ac593;
+  background-color: #7EB9FF;
 }
 
 .schoolButton {
@@ -146,10 +147,7 @@ a.nav-link {
 
 .divider-text {
   color: #DFA4C1;
-  font-size: 20px;
-}
-
-.divider-text {
+  font-size: 44px;
   padding: 10px;
 }
 
