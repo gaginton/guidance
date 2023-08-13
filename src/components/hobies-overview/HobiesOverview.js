@@ -5,7 +5,7 @@ function HobbiesOverview() {
         <div className="container">
             <div className='hobbies-container'>
                 {/* <h3>Hobbies:</h3> */}
-                <li>My main focus now is my app,&nbsp;
+                <li>My main focus is my app,&nbsp;
                     <a
                         href="https://tryme.games"
                         className='link-text bold'
@@ -13,25 +13,27 @@ function HobbiesOverview() {
                         rel="noopener noreferrer"
                     >"Try Me!"
                     </a>
-                    &nbsp;It is a fun, new way to settle disputes on or offline, and a way to improve discourse.
+                    &nbsp;
                 </li>
-                <li>On a typical day I take long walks with my dog, Naya, excercise, cook, and engage my local community.</li>
-                <li>I love travel, philosophical conversations, lectures and tech conferences.</li>
-                <li>I am a big music fan and
+                <li>I wake early to train, walk my dog.</li>
+                <li>I love travel, philosophical convos, lectures and tech conferences.</li>
+                <li>I am a music fan and
                     <a
                         href="https://soundcloud.com/guyandrew"
                         className='link-text bold'
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        &nbsp;bad DJ.
+                        &nbsp;DJ for fun.
                     </a>
                 </li>
                 <li>
-                    I love to partake in volunteer opportunities emphasizing coexistence and animal rescue.
+                    I volunteer every week.
                 </li>
-                <li>I read extensively about STEM. I play a lot of SNES games, including Dr. Mario.</li>
-                <li>I watch HBO series most often. But I should have a doctorate in cartoons.</li>
+                <li>I read extensively about STEM.</li>
+                <li>I play a lot of SNES, esp Dr. Mario.</li>
+                <li>I watched most HBO shows.</li>
+                <li>I should have a PhD in cartoons.</li>
             </div>
         </div>
     );

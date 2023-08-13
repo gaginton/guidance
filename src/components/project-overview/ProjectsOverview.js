@@ -5,26 +5,23 @@ function ProjectsOverview() {
         <div className="container">
             <div>
                 <h3>Try Me!</h3>
-                <div>A mock court for better debates and learning speaking skills.</div>
-                <div>The app supports audio and video chat within Trials.</div>
-                <div>Our primary product will be a community, including "Pros" who provide feedback and coaching.</div>
-                <div>Our priorities are giving professional feedback, for better debate competition.</div>
+                <div>Debate or get feedback via video chat.</div>
+                <div>A community that values empathy.</div>
                 <div className='stack'>Stack: React Native</div>
 
                 <h3>King of the Chill</h3>
-                <div>An umbrella for all the different projects I work on. My focus is always creating resources to sustain local communities.</div>
-                <div>The website, kingchill.com, primarily acts as a blog at the moment. I will showcase app updates within GuySpace.</div>
-                <div>I have two more blogs within the website, devoted to my love for Judaism and Art Cars. </div>
+                <div>A blog about everything.</div>
+                <div>Previously, it was a bus.</div>
                 <div className='stack'>Stack: WordPress</div>
 
                 <h3>Wordley Durdley</h3>
-                <div>A dynamic "Wordle" clone using perfectly cromulent words from The Simpsons.</div>
-                <div>Adding a multi-player Wordle game, akin to "Wordle meets Hangman!"</div>
+                <div>A Simpsons-themed "Wordle" clone.</div>
+                <div>Perfectly cromulent words only.</div>
                 <div className='stack'>Stack: Vanilla JavaScript</div>
 
                 <h3>Recess</h3>
-                <div>Was an app for easily organizing local games and leagues, as well as record keeping.</div>
-                <div>This app was deprecated in 2021 out of support for another project called Hobiz.</div>
+                <div>Create local games and leagues.</div>
+                <div>Deprecated in 2021 to spport Hobiz.</div>
                 <div className='stack'>Stack: React, Firebase, Firestore</div>
             </div>
         </div>
