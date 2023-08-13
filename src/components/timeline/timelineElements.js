@@ -1,13 +1,13 @@
 let timelineElements = [
     {
         id: 10,
-        title: "Reichman University: Global MBA (Innovation and Entrepreneurship)",
+        title: "Reichman University: Global MBA (Innovation & Entrepreneurship)",
         location: "Herzliya, Israel",
         description:
             "Focus on business methodologies and interdisciplinary innovation. Improve mgmt, analytic, finance, marketing, legal and other skills.",
         date: "Nov 2022 - Jun 2024",
         icon: "school",
-        buttonText: "University Page",
+        buttonText: "University",
         link: "https://www.runi.ac.il/en/schools/rris/graduate/global-mba"
     },
     {
@@ -18,7 +18,7 @@ let timelineElements = [
             "Managed client relations and all support issues. Built knowledge base, troubleshoot guides, procedures, automation to facilitate quicker ticket turnaround. Assisted with technical design and proofreading.",
         date: "Feb 2022 - Present",
         icon: "work",
-        buttonText: "Company Page",
+        buttonText: "Company",
         link: "https://base.ai/"
     },
     {
@@ -29,7 +29,7 @@ let timelineElements = [
             "I manage the website for KeepOlim, a nonprofit that helps immigrants integrate into Israel. I managed 3 interns who assisted with content management, including social media.",
         date: "Jan 2023 - Present",
         icon: "work",
-        buttonText: "KeepOlim Page",
+        buttonText: "KeepOlim",
         link: "https://keepolim.org/"
     },
     {
@@ -40,7 +40,7 @@ let timelineElements = [
             "I was an intern at Jeeng, then asked to be their first developer after Jeeng raised funds. Worked with Vue.js, GraphQL, BigQuery, PostgreSQL and memSQL (Single Store). Wrote unit tests with Mocha and Chai. Greatly involved with data management, cost reductions and overseeing schema changes. Previously used Hitachi's Pentaho platform, later Google Data Studio and Looker, to visualize data.",
         date: "Dec 2019 - Jan 2022",
         icon: "work",
-        buttonText: "Company Page",
+        buttonText: "Company",
         link: "https://www.jeeng.com/"
     },
     {
@@ -51,7 +51,7 @@ let timelineElements = [
             "Built a Chrome extension (vanilla JS) to grab elements from the DOM, to easily debug web integration. Helped account managers and clients answer technical questions. Assisted in QA and infrastructure rollouts. Created test pages.",
         date: "Apr 2019 - Dec 2019",
         icon: "work",
-        buttonText: "Company Page",
+        buttonText: "Company",
         link: "https://www.openweb.com/"
     }, 
     {
@@ -76,13 +76,13 @@ let timelineElements = [
     },   
     {
         id: 3,
-        title: "ESAC Inc (ICF): Project Manager",
+        title: "ESAC Inc: Project Manager",
         location: "Rockville, Maryland",
         description:
             "Corresponded with measure developers and CMS in efforts to develop clinical standards - Healthcare IT -  used in the “Electronic Submission of Medical Documentation” and “Electronic Clinical Quality Measures” project.",
         date: "Nov 2015 - Sep 2016",
         icon: "work",
-        buttonText: "Company Page",
+        buttonText: "Company",
         link: "https://www.icf.com/work/federal-health/it"
     },
     {
@@ -93,7 +93,7 @@ let timelineElements = [
             "Managed the artist side of a streaming service written in JS. Tasks included artist outreach, managing social media accounts, overseeing development, uploading content to MySQL, creating marketing plans and press kits.",
         date: "May 2015 - May 2016",
         icon: "work",
-        buttonText: "View FB Page",
+        buttonText: "View FB",
         link: "https://www.facebook.com/SetmineApp/"
     },
     {

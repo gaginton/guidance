@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 
 function ConnectButton() {
     return (
-        <div className="container space-evenly">
+        <div className="container space-evenly pad-bottom">
             <Button
                 className="connect-btn"
                 variant="outline-dark"
