@@ -5,8 +5,8 @@ A minimalist, scrollable portfolio built with React, Vite, and Firebase Hosting.
 Showcase my projects and future plans, including the game: "2 Truths and a Goal."
 
 ## 🛠️ Quick Start
-npm install  
-npm start  
+npm i
+npm run dev  
 npm run build  
 firebase deploy  
 
