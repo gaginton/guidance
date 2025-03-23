@@ -11,6 +11,7 @@ import { AboutMeOverview } from './components/about-overview/AboutMeOverview';
 import ProjectsOverview from './components/project-overview/ProjectsOverview';
 import HobbiesOverview from './components/hobies-overview/HobiesOverview';
 import FooterComponent from './components/footer/Footer';
+import TwoTruthsAndAGoal from './components/game/TwoTruthsAndAGoal';
 
 export type HomeProps = {
   aboutMeText: string[]
@@ -22,6 +23,8 @@ const App = ({ aboutMeText }: HomeProps) => (
     <Main>
       <Title />
       <ConnectButton />
+      <Divider >Game: 2 Truths and 1 Goal</Divider>
+      <TwoTruthsAndAGoal />
       <Divider >Objectives</Divider>
       <AboutMeOverview
         aboutMeText={aboutMeText}

@@ -1,0 +1,35 @@
+.two-truths-container {
+    text-align: center;
+}
+
+.statements-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.statement-card {
+    padding: 15px 20px;
+    border: 2px solid #DFA4C1;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.statement-card:hover {
+    background-color: #f8f8f8;
+}
+
+.statement-card.correct {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.statement-card.wrong {
+    background-color: #ffcdd2;
+    color: #c62828;
+}
