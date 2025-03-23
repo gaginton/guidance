@@ -5,7 +5,7 @@ function HobbiesOverview() {
         <div className="container pad-bottom">
             <div className='column'>
                 {/* <h3>Hobbies:</h3> */}
-                <li>My main focus is &nbsp;
+                <li>My main focus is{' '}
                     <a
                         href="https://tryme.games"
                         className='link-text bold'
@@ -17,14 +17,14 @@ function HobbiesOverview() {
                 </li>
                 <li>I wake early to train, walk my dog.</li>
                 <li>I love travel, philosophy and tech conferences.</li>
-                <li>I am a music fan.
+                <li>I am a music fan.{' '}
                     <a
                         href="https://soundcloud.com/guyandrew"
                         className='link-text bold'
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        &nbsp;I DJ for fun.
+                        I DJ for fun.
                     </a>
                 </li>
                 <li>
@@ -33,7 +33,7 @@ function HobbiesOverview() {
             </div>
             <div className='column'>
                 <li>I read extensively about STEM.</li>
-                <li>I love
+                <li>I love{' '}
                     <a
                         href="https://www.lesswrong.com/"
                         className='link-text bold'

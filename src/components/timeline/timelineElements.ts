@@ -1,5 +1,16 @@
 let timelineElements = [
     {
+        id: 11,
+        title: "Technical Support",
+        location: "Tel Aviv, Israel",
+        description:
+            "Stealth position in cyber security company.",
+        date: "April 2025 - Present",
+        icon: "work",
+        buttonText: "My blog",
+        link: "https://kingchill.com/"
+    },
+    {
         id: 10,
         title: "Reichman University: Global MBA (Innovation & Entrepreneurship)",
         location: "Herzliya, Israel",
@@ -16,7 +27,7 @@ let timelineElements = [
         location: "Kfar Saba, Israel",
         description:
             "Managed client relations and all support issues. Built knowledge base, troubleshoot guides, procedures, automation to facilitate quicker ticket turnaround. Assisted with technical design and proofreading.",
-        date: "Feb 2022 - Present",
+        date: "Feb 2022 - April 2025",
         icon: "work",
         buttonText: "Company",
         link: "https://base.ai/"

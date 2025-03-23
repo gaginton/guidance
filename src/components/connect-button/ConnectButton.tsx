@@ -8,9 +8,9 @@ function ConnectButton() {
                 className="connect-btn"
                 variant="outline-dark"
                 size="lg"
-                onClick={
-                    () => window.location = 'mailto:guyginton@gmail.com?subject=Hi Guy!&body=[Referred by guidancespace.com]'
-                }
+                onClick={() => {
+                    window.location.href = 'mailto:guyginton@gmail.com?subject=Hi Guy!&body=[Referred by guidancespace.com]';
+                }}
             >
                 Email Me
             </Button>
@@ -18,9 +18,9 @@ function ConnectButton() {
                 className="connect-btn"
                 variant="outline-dark"
                 size="lg"
-                onClick={
-                    () => window.location.href = 'https://www.linkedin.com/in/guyginton/'
-                }
+                onClick={() => {
+                    window.open('https://www.linkedin.com/in/guyginton/', '_blank');
+                }}
             >
                 LinkedIn
             </Button>
