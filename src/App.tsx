@@ -16,7 +16,7 @@ export type HomeProps = {
   aboutMeText: string[]
 }
 
-export const App = ({ aboutMeText }: HomeProps) => (
+const App = ({ aboutMeText }: HomeProps) => (
   <div className="App">
     <NavbarComponent />
     <Main>
@@ -36,3 +36,5 @@ export const App = ({ aboutMeText }: HomeProps) => (
     <FooterComponent />
   </div >
 );
+
+export default App;

@@ -1,22 +1,43 @@
+/* Base styles */
 body,
 html {
+  margin: 0;
   height: 100%;
   width: 100%;
   background: #F5FFFF;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Navbar */
 nav.navbar {
   top: 0;
   width: 100%;
   opacity: 0.9;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-div.dropdown.show,
-div.dropdown-menu,
-a.dropdown-item {
+.navbar-brand {
+  padding-left: 1rem;
+}
+
+.navbar .dropdown-toggle {
+  padding: 0.5rem 1rem;
+}
+
+
+a.navbar-brand,
+a.nav-link {
+  color: white !important;
+}
+
+/* Dropdown */
+.dropdown-menu,
+.dropdown.show {
   opacity: 1;
   max-width: 100%;
 }
@@ -27,7 +48,8 @@ a.dropdown-item:hover {
   font-weight: bold;
 }
 
-div.pad-top, .pad-top {
+/* Layout helpers */
+.pad-top {
   padding-top: 60px;
 }
 
@@ -35,8 +57,22 @@ div.pad-top, .pad-top {
   padding-bottom: 60px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  min-width: 300px;
+}
+
+/* Typography */
 .title {
-  margin: 20px 0px;
+  margin: 20px 0;
   font-size: 64px;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
@@ -45,7 +81,7 @@ div.pad-top, .pad-top {
 }
 
 .about-me-overview {
-  margin: 20px 0px;
+  margin: 20px 0;
   font-size: 32px;
   text-align: left;
   font-family: "Bebas Neue", sans-serif;
@@ -57,20 +93,20 @@ h3 {
   padding-top: 15px;
 }
 
-@media only screen and (max-width: 600px) {
-  h3.vertical-timeline-element-title {
-    font-size: 1.25rem;
-    font-weight: bolder;
-  }
-
-  h5.vertical-timeline-element-subtitle {
-    font-size: 1rem;
-  }
+.divider-text {
+  color: #DFA4C1;
+  font-size: 44px;
+  padding: 10px;
 }
 
+.bold {
+  font-weight: bold !important;
+}
+
+/* Timeline */
 .vertical-timeline-element-content {
-  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
-    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em rgba(0, 0, 0, 0.15) !important;
   padding: 2em 3em !important;
 }
 
@@ -82,10 +118,15 @@ h3 {
 }
 
 #description {
-  margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 2em;
   font-size: 18px;
 }
 
+span.vertical-timeline-element-date {
+  font-size: 1.2rem !important;
+}
+
+/* Buttons */
 .button {
   text-decoration: none;
   padding: 0.5em 1em;
@@ -94,10 +135,7 @@ h3 {
   font-weight: bold;
 }
 
-.workButton {
-  background-color: #7EB9FF;
-}
-
+.workButton,
 .workButton:hover {
   background-color: #7EB9FF;
 }
@@ -110,87 +148,15 @@ h3 {
   background-color: #f3bc3c;
 }
 
-@media only screen and (max-width: 700px) {
-  span.vertical-timeline-element-date {
-    display: block !important;
-    float: none !important;
-    color: rgb(44, 44, 44);
-    margin-top: 1.5em;
-    font-size: 0.9rem !important;
-  }
-}
-
-.vertical-timeline-element vertical-timeline-element-date {
-  font-size: 1.2rem !important;
-}
-
-a.navbar-brand,
-a.nav-link {
-  color: white !important;
-}
-
-.bold {
-  font-weight: bold !important;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.container .border {
-  border-bottom: 2px solid #DFA4C1 !important;
-  width: 100%;
-}
-
-.container .content {
-  padding: 0px 10px;
-}
-
-.column {
-  flex: 1; /* This ensures both columns share available space equally on desktop */
-  box-sizing: border-box;
-  padding: 10px;
-  min-width: 300px; /* This ensures a minimum width for the columns */
-}
-
-@media (max-width: 768px) {
-  .column {
-      flex: 100%; /* On mobile devices, each column takes full width */
-      min-width: 100%;
-  }
-
-      /* Remove padding at the bottom of the first column */
-      .column:nth-child(1) {
-        padding-bottom: 0;
-    }
-
-    /* Remove padding at the top of the second column */
-    .column:nth-child(2) {
-        padding-top: 0;
-    }
-}
-
-.divider-text {
-  color: #DFA4C1;
-  font-size: 44px;
-  padding: 10px;
-}
-
-.space-evenly {
-  align-items: center;
-  justify-content: space-evenly !important;
-}
-
+/* Footer */
 .footer-text {
   font-size: 12px;
   margin-bottom: 20px;
 }
 
+/* Special animations */
 .end-cursor:after {
   content: '|';
-  @apply text-secondary-300;
 }
 
 .end-cursor.blinking:after {
@@ -203,6 +169,60 @@ a.nav-link {
   }
 }
 
-/* .button {
-  @apply border-2 px-8 py-3 flex justify-center font-semibold md: text-lg md:py-4 md:px-10 rounded-lg relative shadow transition hover:shadow-md mb-4 active:top-1;
-} */
+/* Media Queries */
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+    min-width: 100%;
+  }
+
+  .column:nth-child(1) {
+    padding-bottom: 0;
+  }
+
+  .column:nth-child(2) {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  span.vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+    font-size: 0.85rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  h3.vertical-timeline-element-title {
+    font-size: 1.25rem;
+    font-weight: bolder;
+  }
+
+  h5.vertical-timeline-element-subtitle {
+    font-size: 1rem;
+  }
+}
+
+.space-evenly {
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+
+.container .border {
+  border-bottom: 2px solid #dfa4c1 !important;
+  width: 100%;
+}
+
+.vertical-timeline-element-icon img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
