@@ -25,11 +25,11 @@
 }
 
 .statement-card.correct {
-    background-color: #c8e6c9;
-    color: #2e7d32;
+    background-color: #ffcdd2;
+    color: #c62828;
 }
 
 .statement-card.wrong {
-    background-color: #ffcdd2;
-    color: #c62828;
+    background-color: #c8e6c9;
+    color: #2e7d32;
 }

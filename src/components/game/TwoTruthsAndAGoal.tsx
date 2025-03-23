@@ -16,6 +16,7 @@ const statementsList = [
     { text: "I slept in a diner for an entire weekend just for the experience.", type: 'truth' },
     { text: "I lived in a startup house where residents took turns sleeping.", type: 'truth' },
     { text: "I have a dog named Naya.", type: 'truth' },
+    { text: "I was president of my high school debate team.", type: 'truth' },
 
     // Goals (written like truths)
     { text: "I bench pressed twice my body weight.", type: 'goal' },
@@ -23,6 +24,7 @@ const statementsList = [
     { text: "I averaged over 100 monthly visitors to my personal blog.", type: 'goal' },
     { text: "I watched every Star Trek series and movie.", type: 'goal' },
     { text: "I got married and have three pets.", type: 'goal' },
+    { text: "I have cooked a Thanksgiving dinner for 8 people.", type: 'goal' },
 ];
 
 
@@ -68,16 +70,19 @@ export default function TwoTruthsAndAGoal() {
     return (
         <div className="two-truths-container pad-bottom pad-top">
             <div className='container'>
-                <h1 className="game-title">Click to see if item is an accomplishment or goal</h1>
+                <h1 className="game-title">Click to see if item is a fact /
+                    accomplishment (green) or goal (red)</h1>
             </div>
             <div className="statements-container">
                 {currentStatements.map((statement, index) => (
-                    <div
-                        key={index}
-                        className={`statement-card ${selected === index && result === 'correct' ? 'correct' : ''} ${selected === index && result === 'wrong' ? 'wrong' : ''}`}
-                        onClick={() => handleSelect(index)}
-                    >
-                        {statement.text}
+                    <div className='container'>
+                        <div
+                            key={index}
+                            className={`statement-card ${selected === index && result === 'correct' ? 'correct' : ''} ${selected === index && result === 'wrong' ? 'wrong' : ''}`}
+                            onClick={() => handleSelect(index)}
+                        >
+                            {statement.text}
+                        </div>
                     </div>
                 ))}
             </div>
