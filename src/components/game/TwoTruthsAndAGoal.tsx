@@ -37,7 +37,7 @@ export default function TwoTruthsAndAGoal() {
     };
 
     return (
-        <div className="two-truths-container pad-bottom pad-top">
+        <div className={`two-truths-container pad-bottom pad-top ${selected !== null ? 'disabled-hover' : ''}`}>
             <h1 className="game-title pad-bottom">
                 Click an option to see if it's a{' '}
                 <span style={{ color: 'green' }}>fact</span> or{' '}
@@ -53,6 +53,7 @@ export default function TwoTruthsAndAGoal() {
                     return (
                         <div key={index} className="container">
                             <div
+                                key={index}
                                 className={`statement-card ${isSelected && isCorrect ? 'correct' : ''} ${isSelected && isWrong ? 'wrong' : ''} ${selected !== null ? 'disabled' : ''}`}
                                 onClick={() => handleSelect(index)}
                             >
