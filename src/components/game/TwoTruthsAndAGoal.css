@@ -8,19 +8,39 @@
     gap: 20px;
     max-width: 500px;
     margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .statement-card {
+    min-width: 300px;
+    width: 100%;
     padding: 15px 20px;
     border: 2px solid #DFA4C1;
     border-radius: 10px;
     cursor: pointer;
     font-size: 20px;
     background-color: white;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    animation: fadeIn 0.5s forwards;
+    opacity: 0;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .statement-card {
+        width: 100%;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 .statement-card:hover {
+    transform: scale(1.2);
     background-color: #f8f8f8;
 }
 
@@ -32,4 +52,16 @@
 .statement-card.wrong {
     background-color: #c8e6c9;
     color: #2e7d32;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    pointer-events: none;
 }

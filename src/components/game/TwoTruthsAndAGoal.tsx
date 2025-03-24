@@ -1,48 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './TwoTruthsAndAGoal.css';
-
-const statementsList = [
-    { text: "I managed an ice cream company and invented a flavor called 'The Elvis.'", type: 'truth' },
-    { text: "I have a rare genetic condition known as KT Syndrome.", type: 'truth' },
-    { text: "I lived in a retrofitted van for an entire summer.", type: 'truth' },
-    { text: "I wrote a 60-page script titled 'Olim Chadashim' (New Immigrants).", type: 'truth' },
-    { text: "I was published in a scientific journal.", type: 'truth' },
-    { text: "I released a DJ mix that received over 5,000 plays.", type: 'truth' },
-    { text: "I backpacked across Europe with four friends after graduating high school.", type: 'truth' },
-    { text: "I performed stand-up comedy at a local venue.", type: 'truth' },
-    { text: "I can do muscle-ups and flag stands.", type: 'truth' },
-    { text: "I attended dozens of music festivals.", type: 'truth' },
-    { text: "I hitchhiked my way into Burning Man.", type: 'truth' },
-    { text: "I slept in a diner for an entire weekend just for the experience.", type: 'truth' },
-    { text: "I lived in a startup house where residents took turns sleeping.", type: 'truth' },
-    { text: "I have a dog named Naya.", type: 'truth' },
-    { text: "I was president of my high school debate team.", type: 'truth' },
-    { text: "I worked in a sushi restaurant during high school.", type: 'truth' },
-    { text: "I taught African migrants how to use CRMs and handle difficult customers.", type: 'truth' },
-    { text: "I volunteered in a community garden for several years.", type: 'truth' },    
-    // { text: "", type: 'truth' },    
-    // { text: "", type: 'truth' },    
-
-    // Goals (written like truths)
-    { text: "I bench pressed twice my body weight.", type: 'goal' },
-    { text: "I visited all seven continents.", type: 'goal' },
-    { text: "I averaged over 100 monthly visitors to my personal blog.", type: 'goal' },
-    { text: "I watched every Star Trek series and movie.", type: 'goal' },
-    { text: "I got married and have three pets.", type: 'goal' },
-    { text: "I have cooked a Thanksgiving dinner for 8 people.", type: 'goal' },
-    { text: "I read every book by Jonathan Ames.", type: 'goal' },
-    { text: "I held a 30-second handstand.", type: 'goal' },
-    { text: "I am fluent in three languages", type: 'goal' },
-    { text: "My online mentorship program, Try Me!, has 20+ members.", type: 'goal' },
-    // { text: "", type: 'goal' },
-    // { text: "", type: 'goal' },
-];
-
-
-type Statement = {
-    text: string;
-    type: 'truth' | 'goal';
-};
+import statementsList, { Statement } from './statementsList';
 
 export default function TwoTruthsAndAGoal() {
     const [currentStatements, setCurrentStatements] = useState<Statement[]>([]);
@@ -80,30 +38,41 @@ export default function TwoTruthsAndAGoal() {
 
     return (
         <div className="two-truths-container pad-bottom pad-top">
-            <div className='container'>
-                <h1 className="game-title">Click to see if item is a fact /
-                    accomplishment (green) or goal (red)</h1>
-            </div>
+            <h1 className="game-title pad-bottom">
+                Click an option to see if it's a{' '}
+                <span style={{ color: 'green' }}>fact</span> or{' '}
+                <span style={{ color: 'red' }}>goal</span>.
+            </h1>
+
             <div className="statements-container">
-                {currentStatements.map((statement, index) => (
-                    <div className='container'>
-                        <div
-                            key={index}
-                            className={`statement-card ${selected === index && result === 'correct' ? 'correct' : ''} ${selected === index && result === 'wrong' ? 'wrong' : ''}`}
-                            onClick={() => handleSelect(index)}
-                        >
-                            {statement.text}
+                {currentStatements.map((statement, index) => {
+                    const isSelected = selected === index;
+                    const isCorrect = result === 'correct';
+                    const isWrong = result === 'wrong';
+
+                    return (
+                        <div key={index} className="container">
+                            <div
+                                className={`statement-card ${isSelected && isCorrect ? 'correct' : ''} ${isSelected && isWrong ? 'wrong' : ''} ${selected !== null ? 'disabled' : ''}`}
+                                onClick={() => handleSelect(index)}
+                            >
+                                {statement.text}
+                                {isSelected && (
+                                    <div className="overlay-text">
+                                        {isCorrect ? 'NOT YET!' : 'TRUE'}
+                                    </div>
+                                )}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
 }
 
-const shuffleArray = (array: any[]) => {
-    return array
-        .map((a) => ({ sort: Math.random(), value: a }))
+const shuffleArray = (array: any[]) =>
+    array
+        .map(a => ({ sort: Math.random(), value: a }))
         .sort((a, b) => a.sort - b.sort)
-        .map((a) => a.value);
-};
+        .map(a => a.value);
