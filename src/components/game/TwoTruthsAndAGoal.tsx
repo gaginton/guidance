@@ -17,6 +17,11 @@ const statementsList = [
     { text: "I lived in a startup house where residents took turns sleeping.", type: 'truth' },
     { text: "I have a dog named Naya.", type: 'truth' },
     { text: "I was president of my high school debate team.", type: 'truth' },
+    { text: "I worked in a sushi restaurant during high school.", type: 'truth' },
+    { text: "I taught African migrants how to use CRMs and handle difficult customers.", type: 'truth' },
+    { text: "I volunteered in a community garden for several years.", type: 'truth' },    
+    // { text: "", type: 'truth' },    
+    // { text: "", type: 'truth' },    
 
     // Goals (written like truths)
     { text: "I bench pressed twice my body weight.", type: 'goal' },
@@ -25,6 +30,12 @@ const statementsList = [
     { text: "I watched every Star Trek series and movie.", type: 'goal' },
     { text: "I got married and have three pets.", type: 'goal' },
     { text: "I have cooked a Thanksgiving dinner for 8 people.", type: 'goal' },
+    { text: "I read every book by Jonathan Ames.", type: 'goal' },
+    { text: "I held a 30-second handstand.", type: 'goal' },
+    { text: "I am fluent in three languages", type: 'goal' },
+    { text: "My online mentorship program, Try Me!, has 20+ members.", type: 'goal' },
+    // { text: "", type: 'goal' },
+    // { text: "", type: 'goal' },
 ];
 
 
