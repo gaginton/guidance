@@ -24,14 +24,14 @@ function ProjectsOverview() {
 
                 <h3>Recess</h3>
                 <div>Create local games and leagues.</div>
-                <div>Deprecated in 2021 to support
+                <div>Deprecated in 2021 to support{' '}
                     <a
                         href="https://www.hobizapp.com/"
                         className='link-text bold'
                         target="_blank"
                         rel="noopener noreferrer"
-                    > Hobiz.
-                    </a>
+                    >Hobiz
+                    </a>.
                 </div>
                 <div className='stack'>Stack: React, Firebase, Firestore</div>
             </div>
